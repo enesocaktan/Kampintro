@@ -16,14 +16,14 @@ namespace Döngüler
                 "Programlamaya başlangıç temel kurs","Java","fotoshop" };
 
 
-            for (int i = 0; i <kurslar.Length; i++)
-            {
-                Console.WriteLine(kurslar[i]);
-            }
+            //for (int i = 0; i <kurslar.Length; i++)
+           // {
+               // Console.WriteLine(kurslar[i]);
+           // }
             //foreach dizileri tek tek (kolay) dolaşmaya yarar
             foreach (string kurs in kurslar)
             {
-                Console.WriteLine(kurs);
+                Console.WriteLine(kurslar[0]);
             }
             Console.WriteLine("Sayfa Sonu");
         }
